@@ -1,0 +1,114 @@
+{
+  "retrieved": "2026-11-12",
+  "xcom": "https://physics.nist.gov/cgi-bin/Xcom/xcom3_3",
+  "estar": "https://physics.nist.gov/cgi-bin/Star/e_table-t.pl",
+  "estar_custom": "https://physics.nist.gov/cgi-bin/Star/e_table-ut.pl",
+  "lead_edge_energy_source": "https://physics.nist.gov/PhysRefData/XrayMassCoef/ElemTab/z82.html",
+  "materials": [
+    {
+      "key": "air",
+      "name": "空気",
+      "description": "乾燥空気（海面付近）",
+      "density": 0.0012,
+      "reference_density": 0.00120479,
+      "excitation_eV": 85.7,
+      "composition": {
+        "C": 0.000124,
+        "N": 0.755268,
+        "O": 0.231781,
+        "Ar": 0.012827
+      },
+      "composition_url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=104",
+      "estar_id": "104"
+    },
+    {
+      "key": "oil",
+      "name": "油",
+      "description": "トリオレイン C₅₇H₁₀₄O₆",
+      "density": 0.92,
+      "reference_density": 0.92,
+      "excitation_eV": 61.4,
+      "composition": {
+        "H": 0.118387,
+        "C": 0.773197,
+        "O": 0.108415
+      },
+      "composition_url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C122327",
+      "estar_id": null
+    },
+    {
+      "key": "water",
+      "name": "水",
+      "description": "液体水",
+      "density": 1.0,
+      "reference_density": 1.0,
+      "excitation_eV": 75.0,
+      "composition": {
+        "H": 0.111894,
+        "O": 0.888106
+      },
+      "composition_url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=276",
+      "estar_id": "276"
+    },
+    {
+      "key": "bone",
+      "name": "皮質骨",
+      "description": "ICRP 皮質骨",
+      "density": 1.85,
+      "reference_density": 1.85,
+      "excitation_eV": 106.4,
+      "composition": {
+        "H": 0.047234,
+        "C": 0.14433,
+        "N": 0.04199,
+        "O": 0.446096,
+        "Mg": 0.0022,
+        "P": 0.10497,
+        "S": 0.00315,
+        "Ca": 0.20993,
+        "Zn": 0.0001
+      },
+      "composition_url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=120",
+      "estar_id": "120"
+    },
+    {
+      "key": "al",
+      "name": "アルミニウム",
+      "description": "元素 Al",
+      "density": 2.7,
+      "reference_density": 2.6989,
+      "excitation_eV": 166.0,
+      "composition": {
+        "Al": 1.0
+      },
+      "composition_url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=013",
+      "estar_id": "013"
+    },
+    {
+      "key": "fe",
+      "name": "鉄",
+      "description": "元素 Fe",
+      "density": 7.87,
+      "reference_density": 7.874,
+      "excitation_eV": 286.0,
+      "composition": {
+        "Fe": 1.0
+      },
+      "composition_url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=026",
+      "estar_id": "026"
+    },
+    {
+      "key": "pb",
+      "name": "鉛",
+      "description": "元素 Pb",
+      "density": 11.34,
+      "reference_density": 11.35,
+      "excitation_eV": 823.0,
+      "composition": {
+        "Pb": 1.0
+      },
+      "composition_url": "https://physics.nist.gov/cgi-bin/Star/compos.pl?matno=082",
+      "estar_id": "082"
+    }
+  ]
+}
